@@ -1,0 +1,147 @@
+body{
+	font: 16px/28px arial, sans-serif;
+	background:url(1.jpg);
+	background-size: 50%;
+	margin: 0;
+}
+
+.sidebar{
+	position: fixed;
+	height:50px;
+	top: 0;
+	right: 0;
+	left: 0;
+	background: skyblue;
+	z-index: 99px;
+}
+
+.sidebar a {
+
+	padding-left:40px ;
+	padding-top:13px;
+	width: 2px;
+	height: 20px;
+	left: 40px;
+	display: block;
+	text-decoration: none;
+}
+
+
+.web{
+	width: 1000px;
+	height: 1050px;
+	margin: 50px auto;
+	background: #f2e9e4;
+}
+
+.judulweb{
+	background: #52796f;
+	padding-top: 15px;
+	
+}
+div{
+
+}
+.judulweb h1{
+	font: 42px serif ;
+	font-weight: bold; 
+	padding-bottom: 25px;
+	margin-bottom: 0;
+}
+.judulweb h1 center{
+	color: #fff;
+}
+
+.navigasi{
+	background: #84a98c;
+	height:40px;
+
+}
+.navigasi ul li{
+	display: inline-block; 
+	padding-right: 40px;
+	padding-top: 10px;
+
+}
+
+.navigasi a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.navigasi a:hover{
+	background: skyblue;
+}
+
+.subjudul{
+	padding-top: 10px;
+	padding-left: 30px;
+	background:#588157;
+}
+.subjudul h2{
+	font: 28px serif ;
+	font-weight: bold;
+}
+.subjudul .Penulis {
+	display: inline-block;
+	font-size: 12px;
+}
+
+.gambar {
+	width: 700px;
+	height:690px ;
+	background-image: url(../gambar/1.jpg);
+	background-position: -1px -10px ;
+	border-top: 5px solid #cad2c5;
+	border-bottom: 5px solid #cad2c5;
+	border-right: 5px solid #cad2c5;
+	box-sizing: border-box;
+	float: left;
+}
+
+.Profile{
+	width: 300px;
+	height: 690px;	
+	padding:10px;
+	float: right;
+	box-sizing: border-box;
+	background: white;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: justify;
+	float: left;
+}
+
+.Profile1{
+	font-size: 28px;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+	
+
+.Profile img{
+	height: 150px;
+	padding-top: 20px;
+	padding-right: 7px;
+	padding-bottom: 5px;
+	float: left;
+
+}
+
+.clear{
+	clear: both;	
+}
+
+.foother {
+	float: booth;
+	font: 20px arial,sans-serif;
+	color: white;
+	text-align: center;
+	background: #343a40;
+	padding-top: 8px;
+	padding-bottom: 8px;
+
+}
